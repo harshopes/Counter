@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Scope One', serif;
+    display: flex;
+    text-align: center;
+    height: 80vh;
+    align-items: center;
+    background-color: slateblue;
+
+}
+
+.container {
+    width: 300px;
+    text-align: center;
+    background: rgba(240, 218, 94, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+p {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.btn {
+    margin-bottom: 1rem;
+    margin: 1rem 0.5rem;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.black {
+    color: black;
+}
